@@ -1,0 +1,34 @@
+.dflex {
+    display: flex;
+  }
+  .SignupPage {
+    min-height: 100vh;
+    padding: 4% 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/background.png");
+    background-size: cover;
+  }
+  
+  .SignupWrapper {
+    padding-top: 24px;
+    /* padding-bottom: 24px; */
+    border-radius: 15px;
+    /* margin-top: 5%; */
+  }
+  .inputRounded .MuiOutlinedInput-root::placeholder {
+    color: red !important;
+  }
+  @media (max-width: 767px) {
+    .SignupPage {
+      align-items: flex-start;
+      background: #00bbf1;
+    }
+  
+    .SignupWrapper {
+      border-radius: 0px;
+    }
+  }
+  
